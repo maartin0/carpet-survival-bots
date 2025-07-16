@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "carpet-survival-bots",
+  "version": "${version}",
+  "name": "carpet-survival-bots",
+  "description": "",
+  "authors": ["maartin0"],
+  "contact": {
+    "repo": "https://github.com/martin/discord-smp-util"
+  },
+  "license": "All-Rights-Reserved",
+  "environment": "server",
+  "entrypoints": {
+    "main": ["me.maartin0.CarpetSurvivalBots.Main"]
+  },
+  "mixins": ["carpet-survival-bots.mixins.json"],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "carpet": ">=1.4.147"
+  }
+}

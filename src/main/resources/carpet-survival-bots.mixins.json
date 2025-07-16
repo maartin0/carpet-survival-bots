@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.maartin0.CarpetSurvivalBots.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "InitMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
